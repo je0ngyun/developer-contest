@@ -13,7 +13,7 @@ const Landing = () => {
   useRegisterSlideKey()
   return (
     <Wrapper>
-      <div>Landing</div>
+      <div>랜딩 페이지</div>
     </Wrapper>
   )
 }

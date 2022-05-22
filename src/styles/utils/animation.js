@@ -1,6 +1,6 @@
 import { keyframes } from 'styled-components'
 
-export const test = keyframes`
+export const backgroudLeftToRight = keyframes`
   0% {
     background-position: 0 0;
   }

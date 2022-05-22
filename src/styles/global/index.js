@@ -15,18 +15,21 @@ const GlobalStyle = createGlobalStyle`
     position: relative;
   }
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    font-family: 'nexonLv1', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: ${({ theme }) => theme.colors.background_color};
     color: ${({ theme }) => theme.colors.text_color};
-    padding: 20px;
+    padding: 15px;
   }
   #root{
     width: 100%;
     height: 100%;
+  }
+  strong{
+    font-weight: 600;
   }
   .transition-group {
     width: 100%;
@@ -79,6 +82,13 @@ const GlobalStyle = createGlobalStyle`
     font-weight: normal; 
     font-style: normal; 
   }
+  @font-face {
+    font-family: 'nexonLv1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') 
+    format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 `
 
 export default GlobalStyle
