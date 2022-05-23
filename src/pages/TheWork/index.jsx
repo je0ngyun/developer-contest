@@ -22,7 +22,7 @@ const TheWork = () => {
         <IconCard
           icons={[FaReact, SiNextdotjs]}
           dataAos="fade-down-right"
-          dataDelay="200"
+          dataDelay="400"
         >
           React, Next를 사용하여 <br /> <strong>SPA 기반의 CSR SSR 웹</strong>을
           <br />
@@ -31,7 +31,7 @@ const TheWork = () => {
         <IconCard
           icons={[FaSass, SiStyledcomponents]}
           dataAos="fade-down-left"
-          dataDelay="400"
+          dataDelay="600"
         >
           기존 CSS보다 향상된 Sass, Styled Component 등을 사용하여{' '}
           <strong>퍼블리싱을 진행합니다.</strong>
@@ -39,7 +39,7 @@ const TheWork = () => {
         <IconCard
           icons={[SiReacttable, SiReactos]}
           dataAos="fade-up-right"
-          dataDelay="600"
+          dataDelay="800"
         >
           React-Query, Recoil 등을
           <br /> 사용하여 <strong>API 연동과</strong> 웹상에서의 <br />
@@ -48,7 +48,7 @@ const TheWork = () => {
         <IconCard
           icons={[GiLighthouse, DiGoogleAnalytics]}
           dataAos="fade-up-left"
-          dataDelay="800"
+          dataDelay="1000"
         >
           LightHouse 을 사용한 <strong>웹 성능 평가</strong> 및 웹 페이지의
           <strong> 검색엔진 최적화</strong> 작업을 합니다.
