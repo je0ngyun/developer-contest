@@ -75,6 +75,15 @@ const GlobalStyle = createGlobalStyle`
     transform: translate3d(-200%, 0, 0);
     transition: transform 930ms linear, opacity 400ms linear
   }
+
+  .text-blue{
+    color: #0896c9;
+  }
+
+  .text-red{
+    color: #c908a9;
+  }
+
   @font-face { 
     font-family: 'yangjin'; 
     src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') 

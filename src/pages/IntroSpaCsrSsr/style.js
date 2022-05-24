@@ -7,8 +7,9 @@ export const StPageMain = styled(StBasePageMain)`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  align-content: center;
   justify-content: center;
-  gap: 80px;
+  gap: 70px 80px;
   li {
     margin-top: 10px;
     margin-bottom: 25px;
@@ -32,6 +33,7 @@ export const StPageMain = styled(StBasePageMain)`
       }
     }
     .ssr-desc {
+      font-size: 1.1rem;
       .icon-server {
         position: absolute;
         top: 70px;
@@ -68,6 +70,7 @@ export const StPageMain = styled(StBasePageMain)`
       }
     }
     .csr-desc {
+      font-size: 1.1rem;
       .icon-server {
         position: absolute;
         top: 70px;

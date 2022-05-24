@@ -18,7 +18,7 @@ const IntroSpaCsrSsr = () => {
     <StPageContainer>
       <Title>SPA? CSR? SSR?</Title>
       <StPageMain>
-        <Card dataAos="flip-right" dataDelay="600" width={1000} height={300}>
+        <Card dataAos="flip-right" dataDelay="600" width={1100} height={300}>
           <div className="content">
             <h1>Server Side Rendering</h1>
             <div className="desc ssr-desc">
@@ -46,7 +46,7 @@ const IntroSpaCsrSsr = () => {
             </div>
           </div>
         </Card>
-        <Card dataAos="flip-left" dataDelay="800" width={1000} height={300}>
+        <Card dataAos="flip-left" dataDelay="800" width={1100} height={300}>
           <div className="content">
             <h1>Client Side Rendering</h1>
             <div className="desc csr-desc">
