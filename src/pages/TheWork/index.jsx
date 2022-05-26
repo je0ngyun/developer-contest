@@ -8,6 +8,7 @@ import {
   SiStyledcomponents,
   SiReacttable,
   SiReactos,
+  SiAmazonaws,
 } from 'react-icons/si'
 import { GiLighthouse } from 'react-icons/gi'
 import { DiGoogleAnalytics } from 'react-icons/di'
@@ -46,12 +47,16 @@ const TheWork = () => {
           <strong>권한을 관리</strong>합니다.
         </IconCard>
         <IconCard
-          icons={[GiLighthouse, DiGoogleAnalytics]}
+          icons={[GiLighthouse, DiGoogleAnalytics, SiAmazonaws]}
           dataAos="fade-up-left"
           dataDelay="1000"
         >
-          LightHouse 을 사용한 <strong>웹 성능 평가</strong> 및 웹 페이지의
+          LightHouse 를 사용한 <strong>웹 성능 평가</strong> 및
           <strong> 검색엔진 최적화</strong> 작업을 합니다.
+          <br />
+          <div style={{ marginTop: '5px' }}>
+            AWS 솔루션을 사용하여 <strong>웹앱을 배포합니다.</strong>
+          </div>
         </IconCard>
       </StPageMain>
     </StPageContainer>
