@@ -13,7 +13,7 @@ import NextAndSEO from '@pages/NextAndSEO'
 import ComponentBasedDev from '@pages/ComponentBasedDev'
 import CompRegularMarkup from '@pages/CompRegularMarkup'
 import GoalsAndChallenges from '@pages/GoalsAndChallenges'
-import QnA from '@pages/QnA'
+import IntroProject from '@pages/IntroProject'
 
 // Routing info
 export const appRoutes = [
@@ -25,7 +25,7 @@ export const appRoutes = [
   { path: '/component-based-dev', Component: ComponentBasedDev },
   { path: '/comp-regular-markup', Component: CompRegularMarkup },
   { path: '/goals-and-challenges', Component: GoalsAndChallenges },
-  { path: '/qna', Component: QnA },
+  { path: '/intro-project', Component: IntroProject },
 ]
 
 const Router = () => {

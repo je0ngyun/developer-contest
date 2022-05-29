@@ -9,13 +9,13 @@ const Wrapper = styled.div`
   border: 10px solid black;
   position: absolute;
 `
-const QnA = () => {
+const IntroProject = () => {
   useRegisterSlideKey() //Register key events for slides on this page
   return (
     <Wrapper>
-      <Title>QnA</Title>
+      <Title>과거 프로젝트 소개</Title>
     </Wrapper>
   )
 }
 
-export default QnA
+export default IntroProject
