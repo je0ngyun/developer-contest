@@ -13,6 +13,16 @@ export const StPageMain = styled(StBasePageMain)`
   gap: 70px 72px;
   .content {
     padding: 25px 40px;
+    width: 100%;
+    height: 100%;
+    .img-box {
+      height: 83%;
+      img {
+        object-fit: fill;
+        height: 100%;
+        width: 100%;
+      }
+    }
     h1 {
       font-size: 1.5rem;
       font-family: 'yangjin';

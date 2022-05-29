@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const StCard = styled.section`
+  position: relative;
   z-index: -1;
   width: ${({ width }) => width + 'px'};
   height: ${({ height }) => height + 'px'};

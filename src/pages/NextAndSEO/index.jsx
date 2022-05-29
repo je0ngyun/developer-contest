@@ -38,13 +38,17 @@ const NextAndSEO = () => {
         <Card dataAos="zoom-in" dataDelay="600" width={490} height={330}>
           <div className="content">
             <h1>SEO 적용 예시</h1>
-            <div className="img-box">이미지</div>
+            <div className="img-box">
+              <img src="/images/seo-search.png" alt="seo-search" />
+            </div>
           </div>
         </Card>
         <Card dataAos="zoom-in" dataDelay="800" width={490} height={330}>
           <div className="content">
-            <h1>meta 적용 예시</h1>
-            <div className="img-box">이거</div>
+            <h1>open graph 적용 예시</h1>
+            <div className="img-box">
+              <img src="/images/seo-metatag.png" alt="seo-metatag" />
+            </div>
           </div>
         </Card>
       </StPageMain>
