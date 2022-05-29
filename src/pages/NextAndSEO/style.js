@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-
 import { StBasePageContainer } from '@styles/shared/page'
 import { StBasePageMain } from '@styles/shared/page'
 
