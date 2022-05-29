@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 export const StCard = styled.section`
   position: relative;
@@ -8,4 +8,11 @@ export const StCard = styled.section`
   border-radius: 10px;
   background: #ffffff;
   box-shadow: 6px 6px 18px #d9d9d9, -6px -6px 18px #ffffff;
+  overflow: hidden;
+
+  ${({ circle }) =>
+    circle &&
+    css`
+      border-radius: 50%;
+    `}
 `

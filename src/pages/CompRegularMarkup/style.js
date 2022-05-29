@@ -39,13 +39,15 @@ export const StPageMain = styled(StBasePageMain)`
     display: flex;
     align-items: center;
     gap: 15px;
-    div {
+    > div {
+      font-size: 1.5rem;
+      margin-right: 20px;
+      font-weight: 600;
+    }
+    span {
       font-size: 1.3rem;
-      &:first-child {
-        font-size: 1.5rem;
-        margin-right: 20px;
-        font-weight: 600;
-      }
+      display: flex;
+      gap: 15px;
     }
   }
 `

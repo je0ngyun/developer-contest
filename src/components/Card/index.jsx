@@ -2,13 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StCard } from './style'
 
-const Card = ({ children, width, height, dataAos, dataDelay }) => {
+const Card = ({ children, width, height, dataAos, dataDelay, ...rest }) => {
   return (
     <StCard
       data-aos={dataAos}
       data-aos-delay={dataDelay}
       width={width}
       height={height}
+      {...rest}
     >
       {children}
     </StCard>

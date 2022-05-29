@@ -45,10 +45,10 @@ const ComponentBasedDev = () => {
             <div>Example UI</div>
             {['홈', '대시보드', '마이페이지'].map((v, i) => {
               return (
-                <>
+                <span key={i}>
                   {i ? <div>{'>'}</div> : ''}
                   <div>{v}</div>
-                </>
+                </span>
               )
             })}
           </div>
