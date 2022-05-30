@@ -6,7 +6,7 @@ export const StTitleContainer = styled.div`
   background-image: linear-gradient(to left, black 50%, white 50%);
   color: white;
   width: 100%;
-  padding: 10px 20px 30px 60px;
+  padding: 20px 20px 20px 60px;
   font-family: 'yangjin';
   letter-spacing: 2px;
   h1 {
